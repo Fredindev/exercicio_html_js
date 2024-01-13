@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Formulário - EBAC</title>
+</head>
+<body>
+
+    <div class="cabecalho">
+        <h1>EBAC - Teste de formulário</h1>
+    </div>
+    
+    <form class="form-campo" id="form-valido">
+        <input type="number" id="campoA" required placeholder="Digite no campoA">
+        <input type="number" id="campoB" required placeholder="Digite no campoB">
+        <button type="submit" id="btn-1">Verificar</button>
+        <p class="msg-sucess">Valor do campoB é maior que o campoA, Validado!</p>
+        <p class="msg-erro">O valor do campoB é menor que do campoA, tente novamente!</p>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
